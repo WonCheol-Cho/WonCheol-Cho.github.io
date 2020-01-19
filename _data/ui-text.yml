@@ -1,6 +1,6 @@
-# User interface text and labels
+ User interface text and labels
 
-# English (default)
+ korean (default)
 # -----------------
 en: &DEFAULT_EN
   skip_links                 : "Skip links"
@@ -579,7 +579,7 @@ ne-NP:
 
 # Korean
 # ------
-ko: &DEFAULT_KO
+ko: DEFAULT_KO
   skip_links                 :
   skip_primary_nav           :
   skip_content               :
@@ -627,7 +627,7 @@ ko: &DEFAULT_KO
   results_found              : "개 결과 발견"
   back_to_top                : "맨 위로 이동"
 ko-KR:
-  <<: *DEFAULT_KO
+  <<: DEFAULT_KO
 
 # Russian / Русский
 # -----------------
